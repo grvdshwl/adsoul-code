@@ -1,0 +1,134 @@
+body{
+  
+   font-family: sans-serif;
+
+}
+
+.App1{
+  background-color: lightgrey;
+  height: 100vh;
+}
+
+
+#container{
+  background-color: #7270F3;
+  display: flex;
+  height: 40vh;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+
+}
+
+#container > img{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container > h3{
+  color: white;
+  margin-left: 50px;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.dashboard{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.dashboard2{
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+.display1{
+  width: 40vw;
+  background-color: white;
+  height: 6vh;
+  display: flex;
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.display1 h3{
+  margin-left: 2vw;
+}
+
+
+
+.display2{
+  width: 40vw;
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  
+  align-items: center;
+
+}
+
+
+.display2 img{
+  margin-left: 4vw;
+  width: 50px;
+  height: 50px;
+  margin-top: 2vh;
+  border-radius: 5px;
+}
+
+.display2 h3{
+  margin-left: 2vw;
+}
+
+#spacing{
+  margin: 20px;
+}
+
+
+.display2 span{
+  color: grey;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 2vw;
+  cursor: pointer;
+}
+
+.display2 span:hover{
+  color: red;
+
+}
+
+
+
+.display3{
+  width: 40vw;
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 11px;
+
+
+}
+
+.display3 > span{
+  width: 5px;
+}
+
+.display4{
+  width: 40vw;
+  background-color: white;
+  height: 5vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+
+
+}

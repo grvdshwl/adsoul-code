@@ -1,0 +1,91 @@
+body{
+	font-family: sans-serif;
+	background-color: white;
+}
+
+#navBar{
+	background-color: #7270F3;
+	width:100vw;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+
+}
+
+#navBar span{
+	color: white;
+	font-size: 15px;
+	font-weight: bold;
+	margin-left: 30px;
+	letter-spacing: 2px;
+
+
+}
+
+#appBar{
+	background-color: white;
+	width: 100vw;
+	height: 12vh;
+	display: flex;
+	align-items: center;
+
+}
+
+#appBar> img{
+  margin: 20px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+}
+
+#arrow1{
+  
+  font-size: 30px;
+  color: grey; 
+  margin-left: 20px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+#arrow1:hover{
+	color: red;
+}
+
+#statsBar{
+	display: flex;
+	margin-top: 15px;
+	margin: 0 15px;
+	border: 2px solid lightgrey;
+	height: 15vh;
+
+
+	justify-content: space-around;
+}
+
+
+#statsBar > span{
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 13px;
+	width: 5px;
+}
+
+#valueBar{
+	display: flex;
+	margin: 0 15px;
+	border-left: 2px solid lightgrey;
+	border-right : 2px solid lightgrey;
+	border-bottom: 2px solid lightgrey;
+	height: 6vh;
+
+
+	justify-content: space-around;
+}
+
+#valueBar > span{
+	display: flex;
+	align-items: center;
+	font-size: 14px;	
+
+}
